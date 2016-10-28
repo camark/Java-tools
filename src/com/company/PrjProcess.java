@@ -11,6 +11,12 @@ import java.util.stream.Stream;
 
 /**
  * Created by Administrator on 2016/10/27.
+ *
+ * 处理格式：
+ * EB13103705,液力耦合器（阳江6#-1）,进行中
+ * EB13103706,液力耦合器（阳江6#-2）,进行中
+ * EB13103707,液力耦合器（阳江6#-3）,进行中
+ * EB13103708,液力耦合器备件（阳江6#）,进行中
  */
 public class PrjProcess {
     public void Processs(String filename){
