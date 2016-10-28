@@ -1,3 +1,6 @@
+package com.company.duplicatezipdelete;
+
+import com.company.duplicatezipdelete.ILog;
 import org.omg.CORBA.Environment;
 import sun.applet.Main;
 
@@ -5,6 +8,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+
 
 /**
  * Created by Administrator on 2016/10/10.

@@ -1,3 +1,5 @@
+package com.company.duplicatezipdelete;
+
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -9,6 +11,8 @@ import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
+
+
 
 /**
  * 删除已经解压的ZIp或者RAR文件
