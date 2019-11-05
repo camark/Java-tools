@@ -1,8 +1,4 @@
-package com.company.duplicatezipdelete;
-
-import com.company.duplicatezipdelete.ILog;
-import org.omg.CORBA.Environment;
-import sun.applet.Main;
+package com.chinasuse.duplicatezipdelete;
 
 import javax.swing.*;
 import java.awt.*;

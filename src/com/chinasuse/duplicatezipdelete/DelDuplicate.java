@@ -1,4 +1,4 @@
-package com.company.duplicatezipdelete;
+package com.chinasuse.duplicatezipdelete;
 
 import java.io.File;
 import java.io.IOException;

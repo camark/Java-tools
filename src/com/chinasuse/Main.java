@@ -1,6 +1,6 @@
-package com.company;
+package com.chinasuse;
 
-import com.company.ProjectProcess.PrjProcess;
+import com.chinasuse.ProjectProcess.PrjProcess;
 
 import java.io.IOException;
 import java.nio.file.Files;
