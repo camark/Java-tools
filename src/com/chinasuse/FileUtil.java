@@ -1,8 +1,6 @@
 package com.chinasuse;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -21,5 +19,15 @@ public class FileUtil {
             }
         }
         return ret;
+    }
+
+    public static void writeLines(String filename,List<String> lines) throws IOException
+    {
+        try(BufferedWriter bw = new BufferedWriter(new FileWriter(filename))){
+            for (String line: lines) {
+                bw.write(line);
+                bw.newLine();
+            }
+        }
     }
 }
