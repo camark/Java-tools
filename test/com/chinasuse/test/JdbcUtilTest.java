@@ -3,19 +3,17 @@ package com.chinasuse.test;
 import com.chinasuse.MysqlDbUtil;
 import com.chinasuse.test.model.Salary;
 import org.apache.commons.dbutils.QueryRunner;
-import org.apache.commons.dbutils.ResultSetHandler;
 import org.apache.commons.dbutils.handlers.BeanListHandler;
 import org.junit.Test;
 
 import java.sql.Connection;
-import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
 
 public class JdbcUtilTest {
 
     @Test
-    public void Testtest() throws SQLException {
+    public void TestMysqlDBUtil() throws SQLException {
         Connection con=null;
         try {
              con = MysqlDbUtil.getConn("10.10.10.101",
