@@ -12,8 +12,8 @@ public class MysqlDbUtil {
 
     public static Connection getConn(String host,String db,String userName,String password) {
         Connection conn = null;
-        String driver = "com.mysql.jdbc.Driver";
-        String url = "jdbc:mysql://"+host+"/"+db+"?useUnicode=true&characterEncoding=utf-8";
+        String driver = "com.mysql.cj.jdbc.Driver";
+        String url = "jdbc:mysql://"+host+"/"+db+"?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8";
         DbUtils.loadDriver(driver);
         try {
             conn = DriverManager.getConnection(url, userName, password);
